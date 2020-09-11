@@ -16,7 +16,7 @@ render(){
     return(
         <div>
             <form className="form">
-                <input type="text" placeholder="Enter Country name"  value={this.state.terms} onChange={(e)=>this.setState({terms:e.target.value})} ></input>
+                <input type="text" placeholder="Enter Country name" id="input-field"  onChange={(e)=>this.setState({terms:e.target.value})} ></input>
                 
                 <button onClick={this.OnButtonClick}>Search</button>
                 </form>
